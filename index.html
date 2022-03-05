@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>TinDog</title>
+
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+  <!-- stylesheet -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Ubuntu&display=swap" rel="stylesheet">
+
+  <!-- fontawesome -->
+  <script src="https://kit.fontawesome.com/a641a62b09.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+
+  <section class="colored-section" id="title">
+
+    <!-- Nav Bar -->
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href=""><img src="images/manhattan.png" width="50" height="50" alt=""> Ouroboros</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item m-5">
+              <a class="nav-link" href="#pricing">Equipo</a>
+            </li>
+            <li class="nav-item m-5">
+              <a class="nav-link" href="#cta">Escuchanos</a>
+            </li>
+            <li class="nav-item m-5">
+              <a class="nav-link" href="#footer">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- Title -->
+
+      <div class="row">
+        <div class="col-lg-6 col-12">
+          <h1 class="big-header">Conocé a tu equipo de divulgadores de comics favorito!</h1>
+          <button type="button" class="btn btn-lg btn btn-dark"> <i class="fa-brands fa-apple"></i> Apple</button>
+          <button type="button" class="btn btn-lg btn-outline-light button-download"> <i class="fa-brands fa-spotify"></i> Spotify</button>
+        </div>
+        <div class="col-lg-6 col-12">
+          <img class="manhattan" src="images/manhattan.png" alt="manhattan-mockup">
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+  <!-- Features -->
+
+  <section class="white-section" id="features">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="features col-lg-4">
+          <i class="fa-solid fa-book icons"></i>
+          <h3 class="features-title">Te ayudan.</h3>
+          <p class="columna">Te recomiendan que leer cuando no tenés idea</p>
+        </div>
+
+        <div class="features col-lg-4">
+          <i class="fa-solid fa-dollar-sign icons"></i>
+          <h3 class="features-title">Les importa tu bolsillo</h3>
+          <p class="columna">Te ayudan con qué, cómo y en dónde gastar</p>
+        </div>
+
+        <div class="features col-lg-4">
+          <i class="fa-solid fa-face-smile-beam icons"></i>
+          <h3 class="features-title">Son copados</h3>
+          <p class="columna">No solo te informan sinó que tambien te entretienen</p>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+
+  <!-- citas -->
+
+  <section class="colored-section" id="testimonials">
+
+    <div id="carouseltestimonials" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouseltestimonials" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouseltestimonials" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouseltestimonials" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouseltestimonials" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouseltestimonials" data-bs-slide-to="4" aria-label="Slide 5"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active container-fluid">
+          <h2 class="testimonial-text">"Si está vacío que se llene, una biblioteca no se puede dejar sin comics"</h2>
+          <img class="testimonials-image" src="images/marian.jpg" alt="marian">
+          <em>Mariano Cholakian, el Líder</em>
+        </div>
+        <div class="carousel-item container-fluid">
+          <h2 class="testimonial-text">"Te puedo hablar horas y horas sobre los X-Men de Claremont, pero así y todo, soy un experto en conchas"</h2>
+          <img class="testimonials-image" src="images/dami.jpg" alt="dami">
+          <em>Damian Perez, el Paleontólogo</em>
+        </div>
+        <div class="carousel-item container-fluid">
+          <h2 class="testimonial-text">"Compro mucho manga y una vez lo vi a Oberto, me saqué una foto con él y la enmarqué".</h2>
+          <img class="testimonials-image" src="images/diego.jpg" alt="diego">
+          <em>Diego Labra, el Académico</em>
+        </div>
+        <div class="carousel-item container-fluid">
+          <h2 class="testimonial-text">"DC es como el vino, hay buenos hay malos, pero no me importa, yo tomo todos".</h2>
+          <img class="testimonials-image" src="images/bob.jpg" alt="bob">
+          <em>Roberto "Bob" Rubiano, la Memoria </em>
+        </div>
+        <div class="carousel-item container-fluid">
+          <h2 class="testimonial-text">"Yo no solo hablo de Marvel Comics, tambien hablo de Marvel Studios, Marvel Television, Marvel Games y Marvel Marvel"</h2>
+          <img class="testimonials-image" src="images/tomi.jpg" alt="tomi">
+          <em>Tomás Favero, el intenso</em>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouseltestimonials" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouseltestimonials" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+  </section>
+
+
+  <!-- Press -->
+
+  <section class="colored-section" id="press">
+    <img class="image-logos" src="images/marvel.png" alt="mv-logo">
+    <img class="image-logos" src="images/dc.png" alt="dc-logo">
+    <img class="image-logos2" src="images/image.png" alt="img-logo">
+    <img class="image-logos" src="images/darkhorse.png" alt="dh-logo">
+    <img class="image-logos" src="images/boom.png" alt="boom-logo">
+
+  </section>
+
+
+  <!-- equipo -->
+
+  <section class="white-section" id="pricing">
+
+    <div class="container-fluid">
+
+      <h2 class="pricing-text">Diferentes pero iguales</h2>
+      <p>Nuestras diferencias nos complementan, son las que crean generan contenido, las que mantienen la charla interesante, pero a todos nos une la misma pasión por el comic</p>
+
+
+      <div class="row text-center">
+        <div class="col-md-4 col-sm-12">
+          <div class="card">
+            <div class="card-header">
+              <h3 class="pricing-title">El Líder</h3>
+            </div>
+            <div class="card-body">
+              <h2 class="pricing-text">Mariano Cholakian</h2>
+              <p>El conductor</p>
+              <p>La brujula que marca el norte</p>
+              <p>Polémico, muerde tobillos</p>
+              <p>Siempre firme junto al comic</p>
+            </div>
+            <div class="card-footer">
+              <button type="button" class="w-50 btn btn-lg btn-outline-dark">Buscalo</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-sm-12">
+          <div class="card">
+            <div class="card-header">
+              <h3 class="pricing-title">El Paleontólogo</h3>
+            </div>
+            <div class="card-body">
+              <h2 class="pricing-text">Damian <br> Perez</h2>
+              <p>Sabe de dinosaurios</p>
+              <p>Escribe papers sobre los X-Men</p>
+              <p>Nombró un caracol como a Superman</p>
+              <p>Sabe todas las preventas del comic nacional</p>
+            </div>
+            <div class="card-footer">
+              <button type="button" class="w-50 btn btn-lg btn-outline-dark">Buscalo</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-sm-12">
+          <div class="card">
+            <div class="card-header">
+              <h3 class="pricing-title">El Académico</h3>
+            </div>
+            <div class="card-body">
+              <h2 class="pricing-text">Diego <br> Labra</h2>
+              <p>Experto en manga</p>
+              <p>Escribe sobre comics/cine</p>
+              <p>No da opiniones, enseña</p>
+              <p>No lee comics, los analiza</p>
+            </div>
+            <div class="card-footer">
+              <button type="button" class="w-50 btn btn-lg btn-outline-dark">Buscalo</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-sm-12">
+          <div class="card">
+            <div class="card-header">
+              <h3 class="pricing-title">La Memoria</h3>
+            </div>
+            <div class="card-body">
+              <h2 class="pricing-text">Roberto "bob" <br> Rubiano</h2>
+              <p>Experto en DC</p>
+              <p>Recuerda todo</p>
+              <p>No hay serie que no vea</p>
+              <p>Toma vino mientras habla de comics</p>
+            </div>
+            <div class="card-footer">
+              <button type="button" class="w-50 btn btn-lg btn-outline-dark">Buscalo</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <div class="card">
+            <div class="card-header">
+              <h3 class="pricing-title">El intenso</h3>
+            </div>
+            <div class="card-body">
+              <h2 class="pricing-text"> Tomás <br> Favero</h2>
+              <p>Solo habla de Marvel</p>
+              <p>Vive en otro país (eso dicen)</p>
+              <p>El niño del grupo</p>
+              <p>Le encantan las adaptaciones</p>
+            </div>
+            <div class="card-footer">
+              <button type="button" class="w-50 btn btn-lg btn-outline-dark">Buscalo</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+
+
+  <!-- Call to Action -->
+
+  <section class="colored-section" id="cta">
+    <div class="container-fluid">
+
+      <h3 class="big-header">Entrevistas, críticas, polémicas, debates, noticias, todo lo que se pueda hablar sobre el noveno arte en un solo lugar</h3>
+      <button type="button" class="btn btn-lg btn btn-dark"> <i class="fa-brands fa-apple"></i> Escuchanos</button>
+      <button type="button" class="btn btn-lg btn btn-light button-download"> <i class="fa-brands fa-spotify"></i> Escuchanos</button>
+      <button type="button" class="btn btn-lg btn btn-light button-download"> <i class="fa-brands fa-youtube"></i></i> Escuchanos</button>
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer class="white-section" id="footer">
+    <div class="container-fluid">
+
+      <i class="fa-brands fa-twitter icons-footer"></i> <i class="fa-brands fa-facebook-f icons-footer"></i> <i class="fa-brands fa-instagram icons-footer"></i> <i class="fa-solid fa-envelope icons-footer"></i>
+      <p class="footer-text">© Copyright Ouroboros</p>
+    </div>
+  </footer>
+
+
+</body>
+
+</html>
